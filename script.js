@@ -18,6 +18,7 @@ const closeModal = function () {
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
 };
+// hiii
 
 btnsOpenModal.forEach(btn => btn.addEventListener('click', openModal));
 
